@@ -8,6 +8,7 @@
 
 body {
     background-color: lightgray;
+    margin: 0px;
 }
 
 a {
@@ -21,8 +22,9 @@ a {
 	width: 100%;
 	/* top: 0;
 	right: 0; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
+    /* margin: -10px; */
 }
 
 .MainBar {
@@ -87,6 +89,7 @@ a {
     background-color: inherit;
     font-family: 'Roboto', sans-serif;
     color: var(--mayflower-secondary);
+    padding-left: 10px;
 }
 
 .Services {
